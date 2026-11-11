@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Pre účtovné kancelárie: klienti posielajú doklady cez portál alebo z mobilu, kancelária vidí, čo chýba, a termíny DPH sú pri klientovi.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Doklady včas</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Čo dostanete</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#priklad" data-ev="click_nav_priklad">Príklad</a><a href="#start" data-ev="click_nav_start">Začať</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Doklady včas</a>
+  <nav><a href="#co" data-ev="click_nav_co">Čo dostanete</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#priklad" data-ev="click_nav_priklad">Príklad</a><a href="#start" data-ev="click_nav_start">Začať</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Doklady od klientov chodia samy a včas — a vy vidíte, čo komu za mesiac ešte chýba</h1>
-    <p class="sub">Pre účtovné kancelárie s desiatkami klientov: každý klient má svoj portál, kam nahrá alebo odfotí doklady, kancelária vidí stav dokladov za mesiac pri každom klientovi, termíny sa pripomínajú automaticky a otázky k dokladom sa riešia priamo pri nich.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Toto potrebujem</a>
-    <p class="cta-note">Služba v príprave · Na tejto stránke neprijímame žiadne platby</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Pre účtovné kancelárie s desiatkami klientov</p>
+      <h1 class="rise" style="--i:1" data-len="long">Doklady od klientov chodia samy a včas&nbsp;<span class="soft">— a vy vidíte, čo komu za mesiac ešte chýba</span></h1>
+      <p class="rise" style="--i:2">Pre účtovné kancelárie s desiatkami klientov: každý klient má svoj portál, kam nahrá alebo odfotí doklady, kancelária vidí stav dokladov za mesiac pri každom klientovi, termíny sa pripomínajú automaticky a otázky k dokladom sa riešia priamo pri nich.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Toto potrebujem</a>
+      <p class="meta rise" style="--i:4">Služba v príprave · Na tejto stránke neprijímame žiadne platby</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="40" font-weight="600" fill="#0a1524">Doklady včas</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="250" width="48" height="48" rx="10" fill="#dfe8f7" /><text x="200" y="286" font-size="32" font-weight="600" fill="#0a1524">Stav za mesiac</text><rect x="130" y="350" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="362" width="280" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="450" width="48" height="48" rx="10" fill="#12397a" /><rect x="200" y="462" width="200" height="24" rx="12" fill="#b9c3d2" /><rect x="130" y="550" width="48" height="48" rx="10" fill="#dfe8f7" /><rect x="200" y="562" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="700" y="260" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">Termíny</text><rect x="750" y="470" width="56" height="150" rx="8" fill="#ffffff" /><rect x="830" y="400" width="56" height="220" rx="8" fill="#12397a" /><rect x="910" y="510" width="56" height="110" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Pre</dt><dd>Účtovné kancelárie</dd></div>
+      <div><dt>Čo</dt><dd>Doklady od klientov</dd></div>
+      <div><dt>Ako</dt><dd>Nahrá alebo odfotí doklady</dd></div>
+      <div><dt>Stav</dt><dd>Portál je v príprave</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Čo dostanete</h2>
-    <div class="grid">
-      <div class="card"><b>Zber dokladov</b><span>Klient nahrá súbor alebo odfotí bloček v mobile.</span><br><a class="btn" href="price.html" data-ev="feature_zber">Toto potrebujem</a></div>
-      <div class="card"><b>Stav za mesiac</b><span>Pri každom klientovi vidno, čo prišlo a čo chýba.</span><br><a class="btn" href="price.html" data-ev="feature_stav">Toto potrebujem</a></div>
-      <div class="card"><b>Termíny</b><span>DPH, preddavky a závierky s pripomienkami klientovi.</span><br><a class="btn" href="price.html" data-ev="feature_terminy">Toto potrebujem</a></div>
-      <div class="card"><b>Správy pri doklade</b><span>Otázka k faktúre priamo pri faktúre, nie v e-maile.</span><br><a class="btn" href="price.html" data-ev="feature_spravy">Toto potrebujem</a></div>
+    <div class="stack"><h2>Čo dostanete</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Zber dokladov</text><rect x="250" y="180" width="220" height="340" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="310" y="200" width="100" height="16" rx="8" fill="#dde2ea" /><rect x="280" y="250" width="160" height="70" rx="14" fill="#dfe8f7" /><rect x="300" y="340" width="140" height="50" rx="12" fill="#12397a" /><circle cx="360" cy="470" r="16" fill="#b9c3d2" /></svg></div>
+        <h3>Zber dokladov</h3><p>Klient nahrá súbor alebo odfotí bloček v mobile.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zber">Toto potrebujem</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Stav za mesiac</text><line x1="120" y1="340" x2="680" y2="340" fill="none" stroke="#dde2ea" stroke-width="6" /><rect x="130" y="300" width="120" height="80" rx="28" fill="#ffffff" stroke="#12397a" stroke-width="4" /><rect x="280" y="300" width="120" height="80" rx="28" fill="#dfe8f7" /><rect x="430" y="300" width="120" height="80" rx="28" fill="#12397a" /><rect x="580" y="300" width="120" height="80" rx="28" fill="#dde2ea" /></svg></div>
+        <h3>Stav za mesiac</h3><p>Pri každom klientovi vidno, čo prišlo a čo chýba.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_stav">Toto potrebujem</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Termíny</text><rect x="120" y="180" width="560" height="320" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="390" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="510" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="150" y="300" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="300" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="390" y="300" width="90" height="56" rx="8" fill="#12397a" /><rect x="510" y="300" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="150" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="390" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="510" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>Termíny</h3><p>DPH, preddavky a závierky s pripomienkami klientovi.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_terminy">Toto potrebujem</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Správy pri doklade</text><rect x="100" y="200" width="200" height="280" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="124" y="240" width="150" height="16" rx="8" fill="#dde2ea" /><rect x="124" y="276" width="110" height="16" rx="8" fill="#b9c3d2" /><rect x="124" y="312" width="140" height="16" rx="8" fill="#dde2ea" /><polygon points="330,300 400,300 400,284 450,320 400,356 400,340 330,340" fill="#12397a" /><rect x="480" y="200" width="200" height="280" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="504" y="250" width="150" height="16" rx="8" fill="#dfe8f7" /><rect x="504" y="290" width="120" height="16" rx="8" fill="#dde2ea" /><circle cx="580" cy="400" r="28" fill="#12397a" /></svg></div>
+        <h3>Správy pri doklade</h3><p>Otázka k faktúre priamo pri faktúre, nie v e-maile.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_spravy">Toto potrebujem</a>
+      </article>
     </div>
   </section>
 
-  <section id="priklad" data-view="example_view">
-    <h2>Príklad (vymyslené údaje)</h2>
-    <p class="fine">Účtovná kancelária s dvoma účtovníčkami a 60 klientmi. Desiateho v mesiaci vidí, že 41 klientov poslalo doklady, 12 len časť a 7 nič. Tým siedmim odíde pripomienka, pri dvoch faktúrach je otázka na klienta a odpoveď príde do portálu. Do termínu DPH sú doklady všetkých klientov v kancelárii.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Vyberte balík</a>
+  <section id="priklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Príklad</h2>
+      <p>Účtovná kancelária s dvoma účtovníčkami a 60 klientmi. Desiateho v mesiaci vidí, že 41 klientov poslalo doklady, 12 len časť a 7 nič. Tým siedmim odíde pripomienka, pri dvoch faktúrach je otázka na klienta a odpoveď príde do portálu. Do termínu DPH sú doklady všetkých klientov v kancelárii.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Vyberte balík</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">doklady</text><text x="600" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">pripomienka</text><text x="960" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">portálu</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" font-weight="600" fill="#0a1524">termínu DPH</text><rect x="170" y="450" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="270" y="450" width="70" height="70" rx="12" fill="#12397a" /><rect x="370" y="450" width="70" height="70" rx="12" fill="#dde2ea" /><rect x="470" y="450" width="70" height="70" rx="12" fill="#b9c3d2" /><text x="170" y="640" font-size="32" fill="#566174">kancelárii</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Ako to funguje</h2>
-    <p>Účtovná kancelária strávi veľkú časť mesiaca tým, že zháňa doklady. Klienti ich posielajú e-mailom, cez WhatsApp, na USB kľúči alebo v obálke, každý inak a väčšinou na poslednú chvíľu. Účtovníčka potom hľadá, čo prišlo, čo chýba a komu ešte napísať.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Ako to funguje</h2></div>
+    <div class="stack">
+      <p>Účtovná kancelária strávi veľkú časť mesiaca tým, že zháňa doklady. Klienti ich posielajú e-mailom, cez WhatsApp, na USB kľúči alebo v obálke, každý inak a väčšinou na poslednú chvíľu. Účtovníčka potom hľadá, čo prišlo, čo chýba a komu ešte napísať.</p>
     <p>Pri desiatkach klientov sa to nedá udržať v hlave. Niektorý klient zabudne poslať výpis z banky, iný pošle tú istú faktúru dvakrát a tretí sa na otázku k dokladu ozve až po termíne. Termíny DPH a preddavkov sa pritom neposúvajú.</p>
     <p>Portál dáva každému klientovi jedno miesto na doklady. Klient ich nahrá z počítača alebo odfotí bločky a faktúry v mobile. Doklady sa zoradia podľa mesiaca a typu: prijaté a vydané faktúry, pokladničné doklady, bankové výpisy, zmluvy.</p>
     <p>Kancelária vidí pri každom klientovi, čo za mesiac prišlo a čo chýba. Na jednej obrazovke je prehľad všetkých klientov: kto poslal všetko, kto len časť a kto ešte nič.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Kancelária platí paušál za účtovnú jednotku, teda za každého klienta s vlastným IČO. Klienti za portál neplatia nič navyše a pre nich je súčasťou služby kancelárie.</p>
     <p>Spustenie trvá jeden večer: zoznam klientov, ich termíny a pozvánky do portálu. Portál funguje v prehliadači na počítači, tablete aj telefóne, bez inštalácie.</p>
     <p>Portál je určený pre účtovné kancelárie a samostatné účtovníčky na Slovensku. Je v príprave: najprv overujeme, či ho kancelárie potrebujú.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Otázky</h2>
-    <h3>Pre koho je portál?</h3>
-    <p>Pre účtovné kancelárie a samostatné účtovníčky na Slovensku a ich klientov.</p>
-    <h3>Ako klient posiela doklady?</h3>
-    <p>Nahrá súbor z počítača alebo odfotí doklad v mobile.</p>
-    <h3>Pripomína portál termíny?</h3>
-    <p>Áno, DPH, kontrolný výkaz, preddavky a závierky, klientovi aj kancelárii.</p>
-    <h3>Treba niečo inštalovať?</h3>
-    <p>Nie, portál funguje v prehliadači na počítači, tablete aj telefóne.</p>
-    <h3>Môžem ho už používať?</h3>
-    <p>Zatiaľ nie. Portál je v príprave a overujeme, či ho kancelárie potrebujú.</p>
+    <div class="stack"><h2>Otázky</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Pre koho je portál?</h3><p>Pre účtovné kancelárie a samostatné účtovníčky na Slovensku a ich klientov.</p></div>
+      <div class="split flip"><h3>Ako klient posiela doklady?</h3><p>Nahrá súbor z počítača alebo odfotí doklad v mobile.</p></div>
+      <div class="split flip"><h3>Pripomína portál termíny?</h3><p>Áno, DPH, kontrolný výkaz, preddavky a závierky, klientovi aj kancelárii.</p></div>
+      <div class="split flip"><h3>Treba niečo inštalovať?</h3><p>Nie, portál funguje v prehliadači na počítači, tablete aj telefóne.</p></div>
+      <div class="split flip"><h3>Môžem ho už používať?</h3><p>Zatiaľ nie. Portál je v príprave a overujeme, či ho kancelárie potrebujú.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Pridajte svoju kanceláriu</h2>
-    <p><label>Počet klientov<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— vyberte —</option><option>Do 20</option><option>20–60</option><option>60–150</option><option>Viac ako 150</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Začať</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Pridajte svoju kanceláriu</h2>
+    </div>
+    <div class="tile stack">
+      <label>Počet klientov<select data-ev-focus="form_start"><option value="">— vyberte —</option><option>Do 20</option><option>20–60</option><option>60–150</option><option>Viac ako 150</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Začať</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Doklady včas</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Ochrana osobných údajov</a></p>
-  <p class="muted">Portál pre doklady a komunikáciu s klientmi vašej kancelárie.</p>
+  <p>Portál pre doklady a komunikáciu s klientmi vašej kancelárie.</p>
 </div></footer>
 
 </body>
